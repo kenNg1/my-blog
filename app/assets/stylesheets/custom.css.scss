@@ -1,2 +1,61 @@
+// $navbar-default-bg: rgb(73, 205, 121); wtf
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-default{
+  background-color: rgb(73, 205, 121);
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.right {
+  text-align: right;
+}
+
+.jumbotron {
+  background-image: url('lion.jpg');
+  background-size: cover;
+  height: 400px;
+  h1 {
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+  }
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float:left;
+}
+
+footer ul {
+  float:right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
